@@ -6,8 +6,8 @@
 #define LED_PIN    3
 #define LED_COUNT 96
 
-const char* ssid     = "Shady";
-const char* password = "6043254234";
+const char* ssid     = "SSID";
+const char* password = "PASSWORD";
 const char* name = "table";
 
 WS2812FX ws2812fx = WS2812FX(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
